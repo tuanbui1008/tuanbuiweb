@@ -1,0 +1,31 @@
+$(document).ready(function() {
+ 
+$("#owl-slide").owlCarousel({
+	autoPlay: 6000, //Set AutoPlay to 6 seconds
+	pagination: false,
+	navigation: true,
+	navigationText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'], 
+	
+	items : 3, //10 items above 1000px browser width
+	itemsDesktop : [1000,3], //5 items between 1000px and 901px
+	itemsDesktopSmall : [900,2], // betweem 900px and 601px
+	itemsTablet: [600,1], //2 items between 600 and 0
+	itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+ 
+});
+
+	$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+
+ 
+ 
+});

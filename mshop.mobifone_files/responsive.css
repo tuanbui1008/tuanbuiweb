@@ -1,0 +1,395 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1000px) {
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	line-height: 1;
+	background-size: cover;
+	width: 100%;
+}
+
+.carousel-title {
+	left: 372px;
+	text-align: left;
+	bottom: 354px;
+	position: absolute;
+}
+ 
+}
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1440px) {
+
+ 
+}
+
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media (max-width: 1024px) {
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 19px;
+}
+.my_menu li a { 
+	font-size: 15px;
+}
+
+.carousel-title {
+	left: 78px; 
+	bottom: 175px; 
+}
+
+.time-profile img {
+	height: 100px;
+}
+
+.cheapest-item img { 
+	height: 160px;
+}
+
+.cheapest-item { 
+	height: 310px; 
+}
+
+#talkbubble { 
+	margin: 20px 25px;
+}
+
+.count {
+	font-size: 65px; 
+}
+
+.payment-item p { 
+	font-size: 12px;
+}
+
+.shops-item img {
+	height: 50px;
+}
+
+.shops-item p { 
+	font-size: 15px;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+h1 {
+	font-size: 27px;
+}
+h2 {
+	font-size: 19px;
+}
+h3 {
+	font-size: 16px;
+}
+p {
+	font-size: 12px;
+}
+
+#myNavbar {
+	padding: 0;
+}
+
+.my_menu li a {
+	font-size: 13px;
+	padding: 5px 8px;
+	margin: 22px 0;
+}
+
+.Registration {
+	font-size: 13px;
+	margin: 22px 0px 0 5px;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	margin-left: -34px;
+}
+
+.navbar-brand {
+	float: left;
+	height: 0;
+	padding: 10px 0 0 10px;
+	font-size: 13px;
+	line-height: 0;
+}
+
+.carousel-title {
+	left: 20px;
+	bottom: 86px;
+}
+
+.title span { 
+	width: 95px; 
+}
+
+.cloud-item {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.easiest-item {
+	margin-bottom: 25px;
+}
+
+#talkbubble {
+    margin: 20px 38px;
+}
+
+.count {
+	font-size: 56px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	display: none; 
+}
+
+
+
+
+}
+
+/* Small Devices Potrait */
+@media (max-width : 767px){
+h1 {
+	font-size: 28px;
+}
+h2 {
+	font-size: 19px;
+}
+
+h3 {
+	font-size: 15px;
+}
+p {
+	font-size: 15px;
+}
+
+.navbar-toggle {
+	margin: 23px 20px;
+}
+
+.controls-content {
+	margin: 0 150px;
+}
+
+.cloud-item {
+	text-align: center;
+	margin-bottom: 62px;
+}
+
+.cloud-content {
+	margin: 0 150px;
+}
+
+.cheapest-content {
+	margin: 0 150px;
+}
+
+.easiest-item {
+	margin-bottom: 25px;
+}
+
+.easiest-content {
+	margin: 0 150px;
+}
+
+#talkbubble {
+	margin: 20px 55px;
+}
+
+.count {
+	font-size: 30px;
+}
+#talkbubble p {
+	font-size: 11px;
+}
+
+.payment-item {
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.google-payment-content {
+	margin: 0 150px;
+}
+
+.online-services-item {
+	margin-bottom: 25px;
+}
+
+.online-services-content {
+	margin: 0 150px;
+}
+
+.shops-content {
+	margin: 0 150px;
+}
+.carousel-title {
+	left: 41px;
+	bottom: 110px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	display: none; 
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 479px) {
+h1 {
+	font-size: 28px;
+}
+h2 {
+	font-size: 19px;
+}
+
+h3 {
+	font-size: 15px;
+}
+p {
+	font-size: 15px;
+}
+
+.navbar-toggle {
+	margin: 23px 20px;
+}
+
+.controls-content {
+	margin: 0 55px;
+}
+
+.cloud-item {
+	text-align: center;
+	margin-bottom: 62px;
+}
+
+.cloud-content {
+	margin: 0 55px;
+}
+
+.cheapest-content {
+	margin: 0 55px;
+}
+
+.easiest-item {
+	margin-bottom: 25px;
+}
+
+.easiest-content {
+	margin: 0 55px;
+}
+
+#talkbubble {
+	margin: 20px 5px;
+}
+
+.count {
+	font-size: 30px;
+}
+#talkbubble p {
+	font-size: 11px;
+}
+
+.payment-item {
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.google-payment-content {
+	margin: 0 55px;
+}
+
+.online-services-item {
+	margin-bottom: 25px;
+}
+
+.online-services-content {
+	margin: 0 55px;
+}
+
+.shops-content {
+	margin: 0 55px;
+}
+.carousel-title {
+	left: 41px;
+	bottom: 42px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	display: none; 
+}
+
+	
+}
+
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 478px)  {
+ h1 {
+	font-size: 20px;
+}
+h2 {
+	font-size: 17px;
+}
+h3 {
+	font-size: 13px;
+}
+
+.carousel-title {
+	left: 3px;
+	bottom: 28px;
+}
+
+.controls-content {
+	margin: 0;
+}
+
+.cloud-content {
+	margin: 0;
+}
+
+.cheapest-content {
+	margin: 0;
+}
+
+.easiest-content {
+	margin: 0;
+}
+
+#talkbubble {
+	width: 65%;
+	margin: 20px 60px;
+}
+
+.google-payment-content {
+	margin: 0;
+}
+
+.online-services-content {
+	margin: 0;
+}
+
+.shops-content {
+	margin: 0;
+}
+.owl-theme .owl-controls .owl-buttons div {
+	display: none; 
+}
+
+}
